@@ -30,16 +30,17 @@ Accidents can occur unexpectedly, and responding to them quickly is essential to
 
 3. **ESP32 with SIM800L**  
    - The **ESP32** development board, equipped with a **SIM800L GSM/GPRS module**, is used for communication. This module ensures that accident alerts and location details can be sent via **SMS** or **phone calls** to emergency services, ensuring swift action.
-
+![صورة حادث](https://github.com/Souadiasifdine/AcciTrack-AI/blob/main/217794820-c861a1c3-0976-4941-a599-21b617bee975.jpg)
 4. **MPU6050 Sensor**  
    - The **MPU6050** sensor module, which includes a 3-axis gyroscope and 3-axis accelerometer, detects sudden movement or impact that could signify an accident. This sensor plays a key role in detecting motion and contributing to accurate accident detection.
 
 5. **GPS Module (NEO6M)**  
    - The **NEO6M GPS module** is used for real-time tracking and accurate geospatial location reporting. This ensures emergency responders receive precise accident locations, which is essential for quick response.
-
+     
+![صورة حادث](https://github.com/Souadiasifdine/AcciTrack-AI/blob/8e1a62bb957be9f3eb2eb0a9a2e4d6806848c97f/neo-6m-module.jpg)
 6. **Blynk**  
    - **Blynk** is used as the cloud-based platform to interact with the system and display real-time data such as accident location, traffic conditions, and system status. The **Blynk dashboard** allows users to monitor accident alerts and traffic status from a remote location.
-
+![صورة حادث](https://github.com/Souadiasifdine/AcciTrack-AI/blob/main/66bf995de590a7bd260f5f8f_6698e2dc950e9e62fb4d63e6_1-02.png)
 ## How the System Works
 
 1. **Data Collection**  
@@ -58,13 +59,13 @@ Accidents can occur unexpectedly, and responding to them quickly is essential to
 
 1. **Google Maps Platform**  
    - Used for integrating **Maps API**, **Traffic API**, and **Directions API** to track accidents, provide live traffic updates, and suggest alternate routes.
-
+![صورة حادث](https://github.com/Souadiasifdine/AcciTrack-AI/blob/8e1a62bb957be9f3eb2eb0a9a2e4d6806848c97f/google-maps-platform-1200x675.png)
 2. **Blynk**  
    - A cloud platform used to create the **web dashboard** where users can monitor accident alerts and real-time traffic data.
-
+![صورة حادث](https://github.com/Souadiasifdine/AcciTrack-AI/raw/main/accident.png)
 3. **Arduino IDE**  
    - The open-source **Arduino IDE** is used to program the **ESP32** board, enabling communication between the sensors and emergency services.
-
+![صورة حادث](https://github.com/Souadiasifdine/AcciTrack-AI/blob/8e1a62bb957be9f3eb2eb0a9a2e4d6806848c97f/Screen%2BShot%2B2021-02-17%2Bat%2B18.00.37.png)
 ## Conclusion
 
 The **AcciTrack AI** project has successfully demonstrated how **Google Maps Platform** and **Artificial Intelligence** can be used together to address the challenges of real-time traffic accident detection and response. By providing **real-time location tracking**, **traffic analysis**, and **alternative route suggestions**, the system significantly enhances road safety and response times.
