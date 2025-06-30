@@ -66,6 +66,9 @@ Accidents can occur unexpectedly, and responding to them quickly is essential to
 3. **Arduino IDE**  
    - The open-source **Arduino IDE** is used to program the **ESP32** board, enabling communication between the sensors and emergency services.
 ![صورة حادث](https://github.com/Souadiasifdine/AcciTrack-AI/blob/8e1a62bb957be9f3eb2eb0a9a2e4d6806848c97f/Screen%2BShot%2B2021-02-17%2Bat%2B18.00.37.png)
+## Source Code
+
+📂 [Click here to view the Arduino code](https://github.com/Souadiasifdine/AcciTrack-AI/blob/main/AcciTrackAI.ino)
 ## Conclusion
 
 The **AcciTrack AI** project has successfully demonstrated how **Google Maps Platform** and **Artificial Intelligence** can be used together to address the challenges of real-time traffic accident detection and response. By providing **real-time location tracking**, **traffic analysis**, and **alternative route suggestions**, the system significantly enhances road safety and response times.
